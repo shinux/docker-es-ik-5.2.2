@@ -1,3 +1,5 @@
+network.host: 0.0.0.0
+
 script.inline: true
 script.stored: true
 script.file: true
