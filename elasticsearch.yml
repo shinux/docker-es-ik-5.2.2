@@ -1,0 +1,9 @@
+script.inline: true
+script.stored: true
+script.file: true
+script.engine.groovy.inline: true
+
+# for elasticsearch-head
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+http.cors.allow-headers: Authorization
