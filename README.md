@@ -12,6 +12,10 @@ IK analyzer companion container for Elasticsearch 5.2.2 base on Alpine
 ## Get image (97M)
 
     docker pull shinux/es-ik:5.2.2
+    
+For Users From China Mainland(Also upgraded alpine JDK version which fixed volume bug https://bugs.openjdk.java.net/browse/JDK-8165852):
+
+    docker pull shinux/es-ik:5.2.2cn
 
 ## Start container in detached mode
 
